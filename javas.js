@@ -3,6 +3,6 @@ $transformar.addEventListener('animationend',mostrar);
 
 
 function mostrar(){
-  $transformar.style.backgroundColor ='green';
+  $transformar.style.backgroundColor ='black';
   return console.log("Termino la animacion");
 }
