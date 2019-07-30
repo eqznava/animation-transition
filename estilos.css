@@ -1,0 +1,41 @@
+.rectangulo{
+  display: flex;
+  align-items: flex-end;
+  height: 300px;
+  width: 100%;
+  background-color: red;
+}
+
+.subrectangulo{
+  height: 150px;
+  width: 100%;
+}
+
+.subrectangulo{
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 1500ms;
+  animation-timing-function: ease;;
+}
+
+@keyframes example {
+  from{height: 0px;}
+  to{height: 150px;}
+}
+
+.menuContainer{
+  display: flex;
+  justify-content: center;
+  color: honeydew;
+  font-family: Helvetica;
+  font-weight: bolder;
+}
+
+.menu ol{
+  display: flex;
+}
+
+.menu li{
+  list-style-type: none;
+  margin: 0px 30px;
+}
